@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: WP Booklet
-Plugin URI: http://schneidr.de
-Description: blah, blah
+Plugin URI: https://github.com/schneidr/wp-booklet
+Description: Adds jQuery Booklet as a shortcode to WordPress
 Author: Gerald Schneider
 Version: 0.1
 Author URI: http://schneidr.de/
