@@ -1,4 +1,5 @@
 # WP Booklet
+This plugin adds [jQuery Booklet](http://builtbywill.com/code/booklet/) as a shortcode to WordPress.
 
 ## Install
 Create the folder `$wordpress/wp-content/plugins/wp-booklet` and place all files in it. Activate the plugin in the WordPress plugin section.
@@ -21,17 +22,18 @@ The shortcode will use all .jpg-Files it finds in there and list them in the man
 
 ### Supported parameters
 The following parameters of Booklet can be used in the shortcode.
+
 * id
 * closed
+
 This list will grow in the future.
 
 ## Credits
-WP Booklet is written and maintained by Gerald Schneider.
-jQuery Booklet is written and maintained by http://builtbywill.com
+WP Booklet is written and maintained by [Gerald Schneider](http://schneidr.de).
+
+jQuery Booklet is written and maintained by [http://builtbywill.com](http://builtbywill.com)
 
 ## License
-This software is published under the CC BY 3.0 licence
-http://creativecommons.org/licenses/by/3.0/
+This software is published under the [CC BY 3.0 licence](http://creativecommons.org/licenses/by/3.0/)
 
-Booklet is available under the MIT licence
-http://opensource.org/licenses/MIT
+Booklet is available under the [MIT licence](http://opensource.org/licenses/MIT)
