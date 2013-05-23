@@ -28,6 +28,13 @@ The following parameters of Booklet can be used in the shortcode.
 
 This list will grow in the future.
 
+## Changelog
+### Version 0.1 (2012-12-01)
+* initial version
+
+### Version 0.1.1
+* updated booklet.js to version 1.4.2
+
 ## Credits
 WP Booklet is written and maintained by [Gerald Schneider](http://schneidr.de).
 

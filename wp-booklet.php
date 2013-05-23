@@ -4,7 +4,7 @@ Plugin Name: WP Booklet
 Plugin URI: https://github.com/schneidr/wp-booklet
 Description: Adds jQuery Booklet as a shortcode to WordPress
 Author: Gerald Schneider
-Version: 0.1
+Version: 0.1.1
 Author URI: http://schneidr.de/
 */
 
@@ -15,10 +15,10 @@ function wp_booklet_load_scripts() {
 		array( 'jquery-ui-core', 'jquery-ui-draggable' )
 	);
 	wp_enqueue_script( 'jquery-booklet',
-		plugins_url( 'jquery.booklet.1.4.0.min.js', __FILE__ ),
+		plugins_url( 'jquery.booklet.1.4.2.min.js', __FILE__ ),
 		array( 'jquery-easing' )
 	);
-	wp_register_style( 'booklet-style', plugins_url('jquery.booklet.1.4.0.css', __FILE__) );
+	wp_register_style( 'booklet-style', plugins_url('jquery.booklet.1.4.2.css', __FILE__) );
 	wp_enqueue_style( 'booklet-style' );
 }
 add_action( 'wp_enqueue_scripts', 'wp_booklet_load_scripts' );
